@@ -1,13 +1,53 @@
+.bttn {
+  border-radius: 12px;
+  padding: 12px;
+  display: block;
+  margin: 20px auto;
+}
 
-.bttn{
-    border-radius: 12px;
-    padding: 12px;
+.image {
+  height: 60%;
+  width: 80%;
+  margin: auto;
+  display: block;
+  max-width: 500px;
 }
-.image{
-    height: 20%;
-    width: 30%;
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
 }
-.flex{
-    display: flex;
+
+/* Ensure text does not exceed image width */
+.flex div {
+  text-align: center;
 }
-    
+
+/* Add a bit of spacing between the button and the text */
+.flex a {
+  margin-top: 10px;
+}
+
+/* Add some overall styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #0066cc;
+}
+
+/* Style the paragraphs to prevent text overflow */
+/* Style the paragraphs to prevent text overflow */
+p {
+  max-width: 60%;
+  margin: 20px auto;
+  /* overflow: hidden; */
+  /* text-overflow: ellipsis; */
+  white-space: normal; /* Allow the text to wrap onto the next line */
+  word-wrap: break-word; /* Allow long words to break onto the next line */
+}
