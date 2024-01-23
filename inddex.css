@@ -1,10 +1,14 @@
+body{
+  height: 100%;
+  width: 100%;
+}
 .bttn {
   border-radius: 12px;
   padding: 12px;
   display: block;
   margin: 20px auto;
-  background-color: #9dbc98; /* Background color */
-  color: #f9efdb; /* Text color */
+  background-color: #a5d49f; /* Background color */
+  color: #63615d; /* Text color */
   text-decoration: none;
   border: none;
   cursor: pointer;
@@ -12,6 +16,7 @@
 
 .bttn:hover {
   background-color: #ebd9b4; /* Background color on hover */
+  color: #020202;
 }
 
 .image {
@@ -26,6 +31,8 @@
   display: flex;
   justify-content: space-evenly;
   text-align: center;
+  height: 45vh;
+  
 }
 
 .flex div {
@@ -71,3 +78,7 @@ h3 {
   border-radius: 10px;
   margin-bottom: 20px;
 }
+.i{
+  width: 45%;
+}
+
