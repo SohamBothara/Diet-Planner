@@ -1,0 +1,71 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #a5d49f;
+}
+.bmr_calculator {
+  max-width: 400px;
+  padding: 12px 25px;
+  margin: 40px auto;
+  box-shadow: 0 4px 8px -3px black;
+  background-color: #f5d698;
+}
+.bmr_calculator,
+.bmr_calculator * {
+  box-sizing: border-box;
+}
+h3 {
+  margin-bottom: 5%;
+}
+h2 {
+  color: #0a0a0a;
+  text-align: center;
+  font-weight: 10%;
+  background-color: #fcc75d;
+  margin: -12px -25px;
+  padding: 20px 10px;
+}
+form input[type="text"] {
+  width: 100%;
+  padding: 4px 16px;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+form #female {
+  margin-left: 40px;
+}
+form .height .weight {
+  position: relative;
+}
+.unit {
+  position: relative;
+  right: -325px;
+  top: -19px;
+  color: #777;
+}
+.calculate {
+  margin: 16px 0 32px 0;
+  padding: 12px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(235, 230, 230);
+  color: rgb(91, 90, 90);
+}
+.result {
+  text-align: center;
+}
+.result_mssg .calorie {
+  color: green;
+  font-weight: bold;
+  font-size: 40px;
+  vertical-align: middle;
+}

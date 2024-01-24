@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="BMR.css" />
+  </head>
+  <body>
+    <div class="bmr_calculator">
+      <h2>BMR Calculator</h2>
+      <div class="controls">
+        <form>
+          <h3>AGE</h3>
+          <input type="text" id="age" value="20" />
+
+          <div class="gender">
+            <h3>Gender</h3>
+            <input type="radio" id="male" value="male" name="gender" />
+            <label for="male">Male</label>
+            <input type="radio" id="female" value="female" name="gender" />
+            <label for="female">Female</label>
+          </div>
+          <div>
+            <h3>Height</h3>
+            <input
+              type="text"
+              id="height"
+              placeholder="Please enter your Height"
+            />
+            <div class="unit">cm</div>
+          </div>
+          <div>
+            <h3>Weight</h3>
+            <input type="text" id="weight" placeholder="Weight in KG" />
+            <div class="unit">kg</div>
+          </div>
+        </form>
+      </div>
+      <div class="result">
+        <button class="calculate">Calculate BMR</button>
+
+        <div class="result_mssg">
+          <span class="calorie">1640</span>Calories per day
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
