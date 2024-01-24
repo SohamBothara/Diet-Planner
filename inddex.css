@@ -6,7 +6,7 @@ body{
   border-radius: 12px;
   padding: 12px;
   display: block;
-  margin: 20px auto;
+  margin: 30px auto;
   background-color: #a5d49f; /* Background color */
   color: #63615d; /* Text color */
   text-decoration: none;
@@ -16,7 +16,9 @@ body{
 
 .bttn:hover {
   background-color: #ebd9b4; /* Background color on hover */
-  color: #020202;
+  color: #595bdb;
+  
+  
 }
 
 .image {
@@ -79,6 +81,6 @@ h3 {
   margin-bottom: 20px;
 }
 .i{
-  width: 45%;
+  width: 35%;
+  box-shadow: 5px 5px #8aa586
 }
-
