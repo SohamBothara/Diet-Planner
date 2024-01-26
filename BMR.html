@@ -12,7 +12,7 @@
       <div class="controls">
         <form>
           <h3>AGE</h3>
-          <input type="text" id="age" value="20" />
+          <input type="text" id="age" value="20" required />
 
           <div class="gender">
             <h3>Gender</h3>
@@ -26,24 +26,34 @@
             <input
               type="text"
               id="height"
-              placeholder="Please enter your Height"
+              placeholder="Please enter your Height "
+              required
             />
             <div class="unit">cm</div>
           </div>
           <div>
             <h3>Weight</h3>
-            <input type="text" id="weight" placeholder="Weight in KG" />
+            <input
+              type="text"
+              id="weight"
+              placeholder="Weight in KG"
+              required
+            />
             <div class="unit">kg</div>
           </div>
         </form>
       </div>
       <div class="result">
-        <button class="calculate">Calculate BMR</button>
+        <button type="submit" class="calculate">Calculate BMR</button>
 
         <div class="result_mssg">
-          <span class="calorie">1640</span>Calories per day
+          <span class="calorie">1,640</span>Calories per day
+        </div>
+        <div class="error_mssg">
+          <p>Please input all the details correctly</p>
         </div>
       </div>
     </div>
+    <script src="./BMR.js"></script>
   </body>
 </html>

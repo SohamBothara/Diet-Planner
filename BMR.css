@@ -32,6 +32,9 @@ form input[type="text"] {
   border: 1px solid black;
   border-radius: 7px;
 }
+form input[type="text"].invalid {
+  border: 1px solid red;
+}
 form {
   display: flex;
   flex-direction: column;
@@ -68,4 +71,12 @@ button:hover {
   font-weight: bold;
   font-size: 40px;
   vertical-align: middle;
+}
+.error_mssg {
+  color: red;
+  display: none;
+}
+.error_mssg.active {
+  color: red;
+  display: block;
 }
