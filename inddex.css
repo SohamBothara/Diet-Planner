@@ -1,6 +1,17 @@
-body{
+body {
   height: 100%;
   width: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #f9efdb; /* Overall background color */
+  color: #333;
+}
+#navbar1 {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar li {
+  display: inline;
+  margin: 15px;
 }
 .bttn {
   border-radius: 12px;
@@ -17,8 +28,6 @@ body{
 .bttn:hover {
   background-color: #ebd9b4; /* Background color on hover */
   color: #595bdb;
-  
-  
 }
 
 .image {
@@ -34,7 +43,6 @@ body{
   justify-content: space-evenly;
   text-align: center;
   height: 45vh;
-  
 }
 
 .flex div {
@@ -45,16 +53,10 @@ body{
   margin-top: 10px;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f9efdb; /* Overall background color */
-  color: #333;
-}
-
-h1 {
+/* h1 {
   text-align: center;
   color: #0066cc;
-}
+} */
 
 /* Style the paragraphs to prevent text overflow */
 p {
@@ -80,7 +82,7 @@ h3 {
   border-radius: 10px;
   margin-bottom: 20px;
 }
-.i{
+.i {
   width: 35%;
-  box-shadow: 5px 5px #8aa586
+  box-shadow: 5px 5px #8aa586;
 }
